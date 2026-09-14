@@ -1,0 +1,53 @@
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.4rem;
+}
+
+.work-card {
+  height: 210px;
+}
+
+.work-card .flip-front {
+  justify-content: space-between;
+}
+
+.work-title {
+  font-size: 1.12rem;
+  font-weight: 700;
+  margin: 0;
+  max-width: 22ch;
+}
+
+.work-sub {
+  font-size: 0.82rem;
+  color: var(--slate);
+  font-family: var(--mono);
+  margin: 0 0 0.3rem;
+}
+
+.work-card .flip-back p {
+  margin: 0 0 1rem;
+  color: var(--paper-dim);
+  font-size: 0.92rem;
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.tag {
+  font-size: 0.76rem;
+  border: 1px solid var(--line);
+  color: var(--paper-dim);
+  padding: 0.22rem 0.55rem;
+}
+
+@media (max-width: 780px) {
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
+}

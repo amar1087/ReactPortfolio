@@ -1,0 +1,49 @@
+.split-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.split-grid h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.cred {
+  margin-bottom: 1.3rem;
+}
+
+.cred .when {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--amber);
+}
+
+.cred .what {
+  font-weight: 700;
+  margin: 0.2rem 0 0.1rem;
+}
+
+.cred .where {
+  color: var(--paper-dim);
+  font-size: 0.9rem;
+}
+
+.lang-row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 320px;
+  margin-bottom: 0.65rem;
+  font-size: 0.9rem;
+}
+
+.lang-row span:last-child {
+  color: var(--slate);
+}
+
+@media (max-width: 780px) {
+  .split-grid {
+    grid-template-columns: 1fr;
+  }
+}

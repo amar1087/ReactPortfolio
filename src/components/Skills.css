@@ -1,0 +1,50 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+}
+
+.skill-card {
+  height: 170px;
+}
+
+.skill-icon {
+  font-family: var(--mono);
+  font-size: 1.6rem;
+  color: var(--amber);
+}
+
+.skill-name {
+  font-size: 1.02rem;
+  font-weight: 700;
+  margin: 0.6rem 0 0.2rem;
+}
+
+.skill-count {
+  font-size: 0.8rem;
+  color: var(--slate);
+  margin-top: auto;
+}
+
+.skill-card .flip-back {
+  justify-content: center;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.chip {
+  font-size: 0.78rem;
+  color: var(--paper-dim);
+  border: 1px solid var(--line);
+  padding: 0.22rem 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,14 @@
+:root {
+  --ink: #101319;
+  --ink-soft: #181d26;
+  --tile: #1c222c;
+  --line: #2a3140;
+  --paper: #edeff3;
+  --paper-dim: #9aa3b2;
+  --slate: #6d7688;
+  --amber: #e8a33d;
+  --amber-dim: rgba(232, 163, 61, 0.14);
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+  --sans: "IBM Plex Sans", -apple-system, sans-serif;
+  --maxw: 1180px;
+}
